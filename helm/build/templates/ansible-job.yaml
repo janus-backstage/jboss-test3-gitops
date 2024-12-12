@@ -5,4 +5,4 @@ metadata:
   namespace: aap
 spec:
   connection_secret: controller-access
-  workflow_template_name: 
+  workflow_template_name: Demo Job Template
