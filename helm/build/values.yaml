@@ -1,0 +1,21 @@
+app:
+  name: jboss-test3
+  namespace: jboss-test3-dev
+  cluster: 
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/jboss-test3.git
+  org: janus-backstage
+  name: jboss-test3
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Openshift
+  organization: 
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jboss-test3
+  tag: latest
